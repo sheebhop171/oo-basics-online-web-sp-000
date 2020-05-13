@@ -3,16 +3,15 @@ class Book
       @title = title
   end
 
-  def title
+  def title #getter
     @title
   end
 
-  def author=(author)
+  def author=(author) #setter
     @author = author
   end
 
-  def author
+  def author #getter
     @author
-
   end
 end
